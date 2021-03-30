@@ -32,8 +32,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Soluction URL on Frontend Mentor: (https://www.frontendmentor.io/solutions/html-5-css-3-javascript-kIqL9i7wd)
+- Solution URL on Github: (https://github.com/rpad88/interactive-pricing-component-main)
+- Live Site URL: (https://rpad88.github.io/interactive-pricing-component-main/)
 
 ## My process
 
