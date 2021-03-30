@@ -17,6 +17,7 @@ input[type=checkbox] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border: 0;
 }
 
 /* create element before and after*/
@@ -32,7 +33,7 @@ input[type=checkbox]::before, input[type=checkbox]::after {
                 transform .15s ease-in;
 }
 
-/*default color when is not checked*/
+/*default background-color when is not checked*/
 input[type=checkbox]::before {
     background-color: hsl(223, 50%, 87%);
     width: 100%;
@@ -40,7 +41,7 @@ input[type=checkbox]::before {
     border-radius: 28px;
 }
 
-/* toggle style*/
+/* toggle ball color*/
 input[type=checkbox]::after {
     margin: 2px 0 0 2px;
     background: #fff;
@@ -50,22 +51,22 @@ input[type=checkbox]::after {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/*troca a cor se estiver com a propriedade checked no html ou o usuário "checar"*/
+/*change background-color if checked*/
 input[type=checkbox]:checked::before {
     background-color: hsl(174, 77%, 80%);
 }
 
-/*muda a posição do botão toggle se estiver checado*/
+/*change button position if checked*/
 input[type=checkbox]:checked::after {
     left: 24px;
 }
 
-/*Efeito opicional de quando preciona o botão*/
+/*optional effect when button is pressed*/
 input[type=checkbox]:active::after {
     transform: scale(1.15, 0.85);
 }
 
-/*Se o input tiver com o atributo disabled a cor é alterada*/
+/*set a background-color when disabled*/
 input[type=checkbox]:disabled::before {
      background-color: hsl(223, 50%, 87%) !important;
 }
